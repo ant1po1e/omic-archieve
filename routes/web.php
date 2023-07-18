@@ -24,3 +24,27 @@ Route::get('/about', function () {
         "title" => "About"
     ]);
 });
+
+Route::get('/member', function () {
+    return view('member', [
+        "title" => "Member"
+    ]);
+});
+
+Route::get('/single', function () {
+    return view('single', [
+        "title" => "Singles"
+    ]);
+});
+
+Route::get('/album', function () {
+    return view('album', [
+        "title" => "Albums"
+    ]);
+});
+
+Route::get('/contact', function () {
+    return view('contact', [
+        "title" => "Contact"
+    ]);
+});
